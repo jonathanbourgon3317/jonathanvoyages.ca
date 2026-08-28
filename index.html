@@ -3,16 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jonathan Voyages — Spécialiste Disney pour familles canadiennes</title>
-  <meta name="description" content="Jonathan Bourgon, conseiller en voyages spécialisé Disney — Walt Disney World et Disney Cruise Line. Forfaits sur mesure pour familles canadiennes.">
+  <title>Jonathan Voyages | Conseiller voyages familles canadiennes</title>
+  <meta name="description" content="Jonathan Bourgon accompagne les familles canadiennes pour les voyages Disney, Club Med, Sandals et séjours premium.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-  <!-- -- HEADER / NAV -- -->
   <header class="site-header">
     <nav class="nav-inner">
       <a href="#hero" class="logo">Jonathan<span>Voyages</span></a>
@@ -21,7 +19,7 @@
       </button>
       <ul class="nav-links" id="nav-links">
         <li><a href="#about" data-i18n="nav_about">À propos</a></li>
-        <li><a href="#specialties" data-i18n="nav_specialties">Spécialités</a></li>
+        <li><a href="#destinations" data-i18n="nav_destinations">Catégories</a></li>
         <li><a href="#why" data-i18n="nav_why">Pourquoi moi</a></li>
         <li><a href="#contact" data-i18n="nav_contact">Contact</a></li>
         <li><button class="lang-toggle" id="lang-toggle" data-i18n="lang_toggle">EN</button></li>
@@ -29,110 +27,98 @@
     </nav>
   </header>
 
-  <!-- -- HERO -- -->
   <section id="hero" class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <p class="hero-eyebrow" data-i18n="hero_eyebrow">Spécialiste Disney certifié</p>
-      <h1 data-i18n="hero_title">Votre spécialiste Disney au Canada</h1>
-      <p class="hero-sub" data-i18n="hero_sub">Des vacances magiques, planifiées sur mesure pour votre famille</p>
-      <a href="#contact" class="btn-primary" data-i18n="hero_cta">Planifier mon voyage</a>
+      <p class="hero-eyebrow" data-i18n="hero_eyebrow">Conseiller voyages pour familles canadiennes</p>
+      <h1 data-i18n="hero_title">Planifiez un voyage familial qui vous ressemble</h1>
+      <p class="hero-sub" data-i18n="hero_sub">Disney, Club Med, Sandals et séjours premium, pensés pour les familles canadiennes</p>
+      <a href="#destinations" class="btn-primary" data-i18n="hero_cta">Voir mes catégories de voyage</a>
     </div>
   </section>
 
-  <!-- -- ABOUT -- -->
   <section id="about" class="section about-section">
     <div class="container about-grid">
       <div class="about-photo">
-        <img src="assets/images/jonathan-portrait.jpg" alt="Jonathan Bourgon — Conseiller en voyages Disney" loading="lazy">
+        <img src="assets/images/jonathan-portrait.jpg" alt="Jonathan Bourgon conseiller en voyages" loading="lazy">
       </div>
       <div class="about-text">
         <h2 data-i18n="about_heading">À propos de Jonathan</h2>
-        <span class="badge" data-i18n="about_badge">2 ans d'expérience · Nexion Canada</span>
-        <p data-i18n="about_p1">Je suis conseiller en voyages spécialisé dans les voyages en famille - qu'il s'agisse de voyages multigénérationnels ou de voyages en famille. Mon objectif es[...]
-        <p data-i18n="about_p2">J'ai une connaissance approfondie et une expérience personnelle avec Disney Cruise Line et Walt Disney World. Je vous conseille sur les heures d'ouverture anticip�[...]
+        <span class="badge" data-i18n="about_badge">2 ans expérience | Nexion Canada</span>
+        <p data-i18n="about_p1">Je suis conseiller en voyages basé à L Orignal en Ontario. J accompagne les familles canadiennes pour des voyages sur mesure, des parcs Disney aux resorts tout inclus.</p>
+        <p data-i18n="about_p2">Je vous guide dans la planification, le budget, les promotions et le choix du bon itinéraire, pour des vacances simples à réserver et agréables à vivre.</p>
         <p class="about-affil" data-i18n="about_affil">Agent indépendant avec Nexion Canada, affilié au Travel Leaders Network.</p>
       </div>
     </div>
   </section>
 
-  <!-- -- SPECIALTIES -- -->
-  <section id="specialties" class="section specialties-section">
+  <section id="destinations" class="section destinations-section">
     <div class="container">
-      <h2 class="section-heading" data-i18n="spec_heading">Mes spécialités</h2>
-      <div class="spec-grid">
-
-        <div class="spec-card spec-wdw">
-          <div class="spec-label" data-i18n="spec_wdw_label">Walt Disney World · Orlando, Floride</div>
-          <h3 data-i18n="spec_wdw_title">Walt Disney World</h3>
-          <p data-i18n="spec_wdw_desc">J'ai une expérience personnelle des parcs et des hôtels Disney World. Je vous aide à planifier chaque détail : Lightning Lane, heures d'ouverture anticip[...]
-          <ul class="spec-list">
-            <li data-i18n="spec_wdw_li1">Choix des hôtels Disney selon votre budget</li>
-            <li data-i18n="spec_wdw_li2">Stratégie Lightning Lane et réservations de restaurants</li>
-            <li data-i18n="spec_wdw_li3">Promotions canadiennes et forfaits Disney</li>
-          </ul>
-        </div>
-
-        <div class="spec-card spec-cruise">
-          <div class="spec-label" data-i18n="spec_cruise_label">Disney Cruise Line · Caraïbes & au-delà</div>
-          <h3 data-i18n="spec_cruise_title">Disney Cruise Line</h3>
-          <p data-i18n="spec_cruise_desc">J'ai personnellement navigué sur Disney Cruise Line. Je connais chaque navire et chaque itinéraire. De la réservation jusqu'au départ, je vous guide �[...]
-          <ul class="spec-list">
-            <li data-i18n="spec_cruise_li1">Sélection du navire et de l'itinéraire idéaux</li>
-            <li data-i18n="spec_cruise_li2">Conseils sur les cabines, activités et escales</li>
-            <li data-i18n="spec_cruise_li3">Préparation complète avant l'embarquement</li>
-          </ul>
-        </div>
-
+      <h2 class="section-heading" data-i18n="dest_heading">Catégories de voyage</h2>
+      <div class="dest-grid">
+        <article class="dest-card">
+          <h3 data-i18n="dest_disneyparks_title">Voyages Disney parcs pour Canadiens</h3>
+          <p data-i18n="dest_disneyparks_desc">Stratégie parcs, hôtels, restauration et conseils adaptés aux familles canadiennes.</p>
+          <a class="card-link" href="disneyparkscanada.html" data-i18n="dest_card_cta">Ouvrir la page</a>
+        </article>
+        <article class="dest-card">
+          <h3 data-i18n="dest_disneycruises_title">Croisières Disney pour Canadiens</h3>
+          <p data-i18n="dest_disneycruises_desc">Choix du navire, de la cabine et de l itinéraire, avec accompagnement avant départ.</p>
+          <a class="card-link" href="disneycruisescanada.html" data-i18n="dest_card_cta">Ouvrir la page</a>
+        </article>
+        <article class="dest-card">
+          <h3 data-i18n="dest_clubmed_title">Vacances Club Med pour Canadiens</h3>
+          <p data-i18n="dest_clubmed_desc">Resorts tout inclus, activités pour enfants et options adaptées à votre rythme.</p>
+          <a class="card-link" href="clubmedcanada.html" data-i18n="dest_card_cta">Ouvrir la page</a>
+        </article>
+        <article class="dest-card">
+          <h3 data-i18n="dest_sandals_title">Vacances Sandals pour Canadiens</h3>
+          <p data-i18n="dest_sandals_desc">Séjours adultes en formule tout inclus, parfaits pour couples et lunes de miel.</p>
+          <a class="card-link" href="sandalscanada.html" data-i18n="dest_card_cta">Ouvrir la page</a>
+        </article>
+        <article class="dest-card">
+          <h3 data-i18n="dest_premium_title">Vacances familiales premium pour Canadiens</h3>
+          <p data-i18n="dest_premium_desc">Expériences familiales haut confort avec service attentionné et rythme détendu.</p>
+          <a class="card-link" href="premiumfamilyvacationscanada.html" data-i18n="dest_card_cta">Ouvrir la page</a>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- -- WHY ME -- -->
   <section id="why" class="section why-section">
     <div class="container">
-      <h2 class="section-heading" data-i18n="why_heading">Pourquoi choisir un conseiller Disney canadien?</h2>
+      <h2 class="section-heading" data-i18n="why_heading">Pourquoi travailler avec moi</h2>
       <div class="why-grid">
         <div class="why-card">
           <div class="why-num">01</div>
-          <h3 data-i18n="why_1_title">Aucun frais supplémentaire</h3>
-          <p data-i18n="why_1_desc">Mes services sont entièrement gratuits pour vous. Disney me rémunère directement. Vous obtenez le même prix qu'en réservant vous-même, avec l'expertise en[...]
+          <h3 data-i18n="why_1_title">Accompagnement personnalisé</h3>
+          <p data-i18n="why_1_desc">Je prends le temps de comprendre vos priorités pour recommander des options réalistes et adaptées à votre famille.</p>
         </div>
         <div class="why-card">
           <div class="why-num">02</div>
-          <h3 data-i18n="why_2_title">Promotions et offres canadiennes</h3>
-          <p data-i18n="why_2_desc">Je surveille les promotions Disney pour les Canadiens et je m'assure que vous bénéficiez de toutes les économies disponibles au moment de votre réservation[...]
+          <h3 data-i18n="why_2_title">Expertise orientée familles canadiennes</h3>
+          <p data-i18n="why_2_desc">Je tiens compte des promotions, des périodes de voyage et des besoins des voyageurs canadiens.</p>
         </div>
         <div class="why-card">
           <div class="why-num">03</div>
-          <h3 data-i18n="why_3_title">Planification personnalisée</h3>
-          <p data-i18n="why_3_desc">Chaque famille est unique. Je prends le temps de comprendre vos besoins, votre budget et vos attentes pour créer le voyage parfait - sans stress.</p>
+          <h3 data-i18n="why_3_title">Planification claire</h3>
+          <p data-i18n="why_3_desc">Vous recevez un plan simple, étape par étape, pour réserver en confiance et partir l esprit tranquille.</p>
         </div>
         <div class="why-card">
           <div class="why-num">04</div>
-          <h3 data-i18n="why_4_title">Expérience personnelle</h3>
-          <p data-i18n="why_4_desc">J'ai vécu ces voyages. Je ne recommande que ce que je connais personnellement - Disney Cruise Line, Walt Disney World - pour des conseils fiables et authe[...]
+          <h3 data-i18n="why_4_title">Conseils basés sur l expérience</h3>
+          <p data-i18n="why_4_desc">Je recommande des expériences que je connais et des options qui apportent du confort aux familles.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- -- CONTACT -- -->
   <section id="contact" class="section contact-section">
     <div class="container">
       <h2 class="section-heading" data-i18n="contact_heading">Planifier votre voyage</h2>
-      <p class="contact-sub" data-i18n="contact_sub">Remplissez le formulaire ou écrivez-moi directement — je vous réponds rapidement.</p>
+      <p class="contact-sub" data-i18n="contact_sub">Remplissez le formulaire ou écrivez moi directement, je vous réponds rapidement.</p>
       <div class="contact-grid">
-
         <div class="form-wrapper">
-          <!-- ------------------------------------------
-               REPLACE THIS PLACEHOLDER WITH YOUR GOOGLE FORM:
-               1. Open your Google Form
-               2. Click Send → Embed (<> )
-               3. Copy the <iframe ...> code
-               4. Delete the .form-placeholder div below
-               5. Paste your <iframe> here
-               ------------------------------------------ -->
           <div class="form-placeholder" id="form-placeholder">
             <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <rect x="8" y="4" width="32" height="40" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
@@ -140,33 +126,27 @@
               <line x1="16" y1="24" x2="32" y2="24" stroke="currentColor" stroke-width="2"/>
               <line x1="16" y1="32" x2="24" y2="32" stroke="currentColor" stroke-width="2"/>
             </svg>
-            <p><strong>[ Formulaire Google — À configurer ]</strong></p>
-            <p>Remplacez ce bloc par votre code d'intégration Google Forms (<code>&lt;iframe&gt;</code>).</p>
+            <p><strong data-i18n="form_placeholder_title">Formulaire Google à configurer</strong></p>
+            <p data-i18n="form_placeholder_text">Remplacez ce bloc par votre code intégration Google Forms avec iframe.</p>
           </div>
-
-          <!-- English form iframe (hidden by default; shown only for EN) -->
-          <iframe id="google-form-iframe" src="https://docs.google.com/forms/d/e/1FAIpQLSffHpDKBkBR-hkWADe9kasjSqHuw2PBf48wMQ8eT29wfNPxEA/viewform?embedded=true" width="100%" height="720" frameborder="0" marginheight="0" marginwidth="0" loading="lazy" title="Contact form (English)" style="display:none; border:none; border-radius:12px;"></iframe>
-
         </div>
 
         <div class="contact-info">
           <h3 data-i18n="contact_direct_heading">Contact direct</h3>
-          <p data-i18n="contact_email_label">Écrivez-moi par courriel :</p>
+          <p data-i18n="contact_email_label">Écrivez moi par courriel</p>
           <a href="mailto:jon@jonathanvoyages.ca" class="email-link">jon@jonathanvoyages.ca</a>
           <p class="contact-note" data-i18n="contact_note">Je réponds généralement dans les 24 heures. Il me fera plaisir de discuter de votre prochain voyage en famille.</p>
           <p class="contact-affil" data-i18n="about_affil">Agent indépendant avec Nexion Canada, affilié au Travel Leaders Network.</p>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- -- FOOTER -- -->
   <footer class="site-footer">
     <div class="container">
       <p class="footer-logo">Jonathan<span>Voyages</span></p>
-      <p class="footer-indie" data-i18n="footer_indie">Agent indépendant avec Nexion Canada, affilié au Travel Leaders Network. Jonathan Voyages n'est pas affilié à The Walt Disney Company ni[...]
-      <p class="footer-copy" data-i18n="footer_copy">© 2026 Jonathan Bourgon · Jonathan Voyages · L'Orignal, Ontario, Canada</p>
+      <p class="footer-indie" data-i18n="footer_indie">Agent indépendant avec Nexion Canada, affilié au Travel Leaders Network. Jonathan Voyages n est pas affilié à The Walt Disney Company ni à ses filiales.</p>
+      <p class="footer-copy" data-i18n="footer_copy">© 2026 Jonathan Bourgon | Jonathan Voyages | L Orignal, Ontario, Canada</p>
     </div>
   </footer>
 
